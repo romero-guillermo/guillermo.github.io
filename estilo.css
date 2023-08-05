@@ -1,0 +1,80 @@
+body{
+    background-image: url(/francesco-ungaro-P45gR9kH0SM-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+  
+}
+#container{
+    width: auto;
+    margin: -20px 10px;
+
+}
+header{
+    color: antiquewhite;
+    width: 98%;
+    text-align: center;
+    border:1px solid antiquewhite; 
+    padding-bottom: 10px;
+}
+nav ul li{
+    float: left;
+    color: white;
+    list-style: none;
+    margin: 20px;
+    line-height: 20px;
+
+}
+.clearfix{
+    clear: both;
+width: 80%;
+
+}
+#content{
+    float: left;
+    width: 20%;
+    min-height: 800px;
+}
+footer{
+    text-align: center;
+    line-height: 50px
+    ;
+    color: antiquewhite;
+}
+.pintar{
+    color: antiquewhite;
+}
+.pintar2{
+    color: lightgray;
+}
+.article{
+    color: bisque;
+    border-bottom: solid 1px lightgray;
+}
+h2+p{
+    color: antiquewhite;
+}
+.img-1{
+    height: 200px;
+    width: 120px;
+    border: 1px solid white;
+    
+}
+.descripcion{
+    color: antiquewhite;
+   
+}
+.container:third-child{
+    width: auto
+    ;
+    margin: none;
+}
+.foto1{
+    display: inline-block;
+}
+.vapai{
+    display: flex;
+    justify-content: right;
+}
+a:hover{
+    color: aqua;
+}
